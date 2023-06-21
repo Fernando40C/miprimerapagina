@@ -40,6 +40,12 @@
     display: flex;
   }
 
+  .greeting{
+    text-align: center;
+    color: rgb(255, 139, 31);
+    background-color: black;
+  }
+
   @media (max-width: 600px) {
     .column {
       flex: 100%;
