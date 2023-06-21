@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+      max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(200,200,200);
+  }
+
+  a {
+    color: rgb(19, 41, 61);
+    font-size: 20px;
+  }
+
+  .titulo {
+    color: rgb(255, 139, 31);
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(87, 81, 81);
+    border-radius: 15px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  img{
+    padding: 5px;
+    width: 190px;
+    height: 250px;
+  }
+
+  .img-container{
+    margin: auto;
+    padding: auto;
+    display: flex;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+  .boton{
+    font-size: 20px;
+    color: darkblue;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .itemBarra{
+    color: brown;
+  }
+
+  .navegador{
+    color: darkgreen;
+  }
+
+  label{
+    padding: 5px;
+    display: block;
+    color: blue;
+  }
+
+  .listaServicios{
+    font-size: 20px;
+    color: blueviolet;
+  }
